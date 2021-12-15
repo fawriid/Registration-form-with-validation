@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(61, 61, 61);
+  background-color: #f6f6f6;
+  text-align: center;
+}
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+.content-container {
+  margin: 0 auto;
+  width: 430px;
+  height: 650px;
+  background-color: #ecf0f3;
+  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 4rem;
+}
+.logo img {
+  width: 100%;
+  border-radius: 50%;
+}
+.logo div {
+  /* border: 3px solid white; */
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 2px #5f5f5f, 0px 0px 0px 5px #ecf0f3, 8px 8px 15px #afaaa7,
+    -8px -8px 15px #fff;
+  margin-bottom: 2rem;
+}
+form input {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+  color: rgb(58, 58, 58);
+  margin-left: 0.7rem;
+  width: 80%;
+  /* padding: 1.5rem 2rem; */
+  height: 100%;
+  line-height: 58px;
+}
+form input::placeholder {
+  height: 100%;
+  font-size: 1.6rem;
+  line-height: 58px;
+}
+form div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  box-shadow: inset 6px 6px 8px #cbced1, inset -8px -8px 8px #fff;
+  height: 58px;
+  width: 70%;
+}
+form i {
+  margin-right: 0.5rem;
+  position: relative;
+  top: -1px;
+  margin-left: 1rem;
+}
+form button {
+  margin-top: 2rem;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: rgb(107, 214, 228);
+  border: 1px solid rgb(107, 210, 233);
+  border-radius: 15px;
+  box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #fff;
+  padding: 1rem 3rem;
+  width: 70%;
+  height: 53px;
+  cursor: pointer;
+  transition: all 200ms linear;
+}
+form button:hover {
+  background-color: rgb(107, 228, 208);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+.msg {
+  padding-bottom: 2rem;
+  position: relative;
+  top: -2rem;
+  font-size: 1.8rem;
+}
