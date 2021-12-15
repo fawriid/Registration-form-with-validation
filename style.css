@@ -72,14 +72,18 @@ form input::placeholder {
   font-size: 1.6rem;
   line-height: 58px;
 }
-form div {
+form > div {
+  width: 100%;
+}
+form .input-container {
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 25px;
   box-shadow: inset 6px 6px 8px #cbced1, inset -8px -8px 8px #fff;
   height: 58px;
-  width: 70%;
+  width: 75%;
 }
 form i {
   margin-right: 0.5rem;
@@ -97,7 +101,7 @@ form button {
   border-radius: 15px;
   box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #fff;
   padding: 1rem 3rem;
-  width: 70%;
+  width: 75%;
   height: 53px;
   cursor: pointer;
   transition: all 200ms linear;
@@ -118,4 +122,10 @@ form {
   position: relative;
   top: -2rem;
   font-size: 1.8rem;
+}
+.user-alert,
+.pass-alert {
+  position: relative;
+  top: 10px;
+  left: -90px;
 }

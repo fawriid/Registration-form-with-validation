@@ -22,12 +22,18 @@
             </div>
             <form action="">
                 <div>
-                    <i class="far fa-user"></i>
-                    <input type="text" value="" placeholder="Username">
+                    <div class="input-container">
+                        <i class="far fa-user"></i>
+                        <input type="username" class="user-input" value="" placeholder="Username">
+                    </div>
+                    <span class="user-alert"></span>
                 </div>
                 <div>
-                    <i class="fas fa-lock"></i>
-                    <input type="password" value="" placeholder="Password">
+                    <div class="input-container">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" class="pass-input" value="" placeholder="Password">
+                    </div>
+                    <span class="pass-alert"></span>
                 </div>
                 <button type="submit">sign in</button>
             </form>
