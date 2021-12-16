@@ -42,7 +42,7 @@ function signIn(e) {
     let headers = {
       "content-type": "application/json",
     };
-    fetch("https://jsonplaceholder.typicode.com/users2", {
+    fetch("https://jsonplaceholder.typicode.com/users", {
       method: "POST",
       body: body,
       headers: headers,
